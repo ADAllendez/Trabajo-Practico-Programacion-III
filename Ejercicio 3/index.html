@@ -42,7 +42,7 @@
 <body>
     <h1>Petición GET a la API de JSONPlaceholder</h1>
     <p>
-        Ejemplo de una lista de 5 tareas pendientes de la API pública
+        Ejemplo de una lista de tareas pendientes de la API pública
         JSONPlaceholder y las muestra a continuación.
     </p>
     <button id="fetch-todos-btn">Cargar Tareas</button>
@@ -52,7 +52,7 @@
     <div id="error-message" class="error"></div>
 
     <script>
-        const todosEndpoint = "https://jsonplaceholder.typicode.com/todos?_limit=5";
+        const todosEndpoint = "https://jsonplaceholder.typicode.com/todos";
         const todosListDiv = document.getElementById("todos-list");
         const errorMessageDiv = document.getElementById("error-message");
         const loadingDiv = document.getElementById("loading");
